@@ -56,17 +56,6 @@ public class Main {
             }
         }
         System.out.println("f");
-        // Khởi tạo list periods
-       /* for(int i=1; i<=M; i++){
-            listPeriods[i] = new Periods(i);
-        }
-        // Khởi tạo list courses
-        for(int i=1; i<=N; i++){
-            int x = sc.nextInt();
-            // Khởi tạo từng đối tượng Courses
-            listCourses[i] = new Courses(i,x,0);
-        }
-        arr[3][4] = 1; arr[3][5] = 1; arr[1][6] = 1;*/
         for(int i=1; i<=N; i++){
             for(int j=1; j<=N; j++){
                 //int x = sc.nextInt();
